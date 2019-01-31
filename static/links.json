@@ -1,0 +1,23 @@
+{
+  "linksData":[
+    {
+      "name":"小m",
+      "desc":"本站",
+      "homeLink":"http://www.goodness.top",
+      "gitLink":"/boyMi"
+    },
+    {
+      "name":"河南机电计算机协会",
+      "desc":"河南机电计算机协会官方网站",
+      "homeLink":"http://www.jdjsj.cn",
+      "gitLink":""
+    },
+    {
+      "name":"msdong",
+      "desc":"学长大佬",
+      "homeLink":"http://www.dongyonghui.com",
+      "gitLink":""
+    }
+
+  ]
+}

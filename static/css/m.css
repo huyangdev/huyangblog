@@ -1,0 +1,239 @@
+@media screen and (max-width:340px) {
+  .article-item .article-tags , .article-item .article-browse-count{
+      float: none !important;
+    margin-bottom: 5px;
+  }
+  .article-item .article-item-foot{
+    height: 40px !important;
+  }
+}
+
+
+@media screen  and (min-width: 806px) and (max-width: 1130px){
+  /* 适配 806px , 1130px */
+  .blog-main{
+    width: 1130px !important;
+  }
+
+  #container{
+    width: 1130px !important;
+  }
+}
+
+
+@media screen   and (max-width: 806px){
+  /* 头部  */
+  .blog-header .blog-header-box{
+    width: 100% !important;
+  }
+  .blog-header .left {
+    margin-left:10px;
+  }
+  .blog-header .right {
+    min-width:0px !important;
+  }
+  /* 中部 */
+  .blog-main{
+    width: 100% !important;
+  }
+  .blog-main .blog-article-box{
+    width: 96% !important;
+  }
+  .blog-article-box .blog-other{
+    float:none  !important;
+    width: 100%  !important;
+  }
+  .blog-article-box .article-items{
+    float: none !important;
+    width: 100% !important;
+  }
+
+
+  /* 轮子模块  S */
+  .blog-open-box > ul{
+    width: 550px !important;
+    margin-left: 12%;
+  }
+  /* 轮子模块  E */
+
+
+  /* 文章详情模块  S */
+  .article-detail-center{
+    width: 100% !important;
+  }
+  /* 文章详情模块  E */
+
+
+  /* 关于 S */
+  .blog-about{
+    width: 96% !important;
+  }
+  /* 关于 E */
+
+
+  /* 留言模块 S */
+  .blog-massage-iuput .m-input{
+    width: 82% !important;
+  }
+  .blog-massage-iuput .poto-author{
+    padding-left: 10px !important;
+  }
+
+  .blog-massage-box{
+    width: 94% !important;
+  }
+  .blog-massage-content .poto{
+    width: 50px !important;
+    height: 50px !important;
+    margin-left: 0px !important;
+  }
+  .blog-massage-content .poto-author{
+    width: 56px !important;
+  }
+  .blog-massage-content .m-content{
+    width: 86% !important;
+  }
+  /* 留言模块 E */
+
+
+  /* 友链模块 S*/
+  .blog-links-box{
+    width:100% !important;
+  }
+  .blog-links-box .blog-links-info{
+    width: 100% !important;
+  }
+
+  .blog-links-box .blog-links-body{
+    width: 550px !important;
+  }
+  /* 友链模块 E */
+
+}
+
+@media screen and (max-width: 670px){
+  .blog-open-box > ul{
+    margin-left: 6%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  /* 头部导航 S */
+  .blog-header .menu-list{
+    display: none;
+  }
+  .blog-header .blog-more{
+    display: block !important;
+    line-height: 60px;
+    width: 55px;
+    font-size: 27px;
+  }
+  /* 头部导航 E */
+
+  .article-item-head__title a{
+    font-size: 1rem !important;
+  }
+  .article-item .article-item-head__info span,.article-item .article-item-head__info span > a{
+    font-size: 0.6rem !important;
+  }
+
+  /* 轮子 S*/
+  .blog-open-box > ul{
+    margin-left: 2%;
+  }
+  /* 轮子 E */
+
+
+  /* 友情模块  S */
+  .blog-links-box .blog-links-body{
+    width: 96% !important;
+  }
+  .blog-links-box .blog-links-body .links-item{
+    width: 97% !important;
+    height: auto !important;
+    margin-right: 0px !important;
+    font-size: 14px;
+    min-height: 82px;
+  }
+  .blog-links-box .blog-links-item-desc{
+    height: auto !important;
+
+  }
+
+  /* 友情模块  E */
+
+}
+
+@media screen and (max-width: 580px){
+
+  /* 轮子模块 移动适配 s */
+  .blog-open-box{
+    width: 95% !important;
+  }
+  .blog-open-box > ul{
+    width: 100% !important;
+    margin-left: 0;
+  }
+  .blog-open-box .open-item {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0px 0px 20px 0px !important;
+  }
+  .blog-open-box .open-item .open-item-header {
+    height: auto !important;
+  }
+  .blog-open-box .open-item-header img {
+    height: auto !important;
+  }
+  /* 轮子模块 移动适配 s */
+
+
+  /* 留言模块 S  */
+  .blog-massage-content .m-content{
+    width: 80% !important;
+  }
+
+  .blog-massage-iuput .m-input{
+    width: 80% !important;
+  }
+  /* 留言模块 E  */
+}
+@media screen and (max-width: 500px){
+  /* 留言模块 S  */
+  .blog-massage-content .m-content{
+    width: 75% !important;
+  }
+  .blog-massage-iuput .m-input textarea{
+    width: 85% !important;
+  }
+  .blog-massage-iuput .m-input{
+    width: 70% !important;
+  }
+  /* 留言模块 E  */
+}
+
+
+
+@media screen and (max-width: 420px){
+  /* 主页模块 移动适配 s */
+    #container .info{
+      width:100%;
+
+    }
+   #container .info .info-but{
+     width: 100%;
+   }
+  #container .info .info-but .but-a{
+    width: 115px;
+  }
+  /* 主页模块 移动适配 e */
+}
+
+  @media screen and (max-width: 350px){
+    .blog-massage-iuput .m-input{
+      width: 65% !important;
+    }
+    .blog-massage-content .m-content{
+      width: 70% !important;
+    }
+  }
