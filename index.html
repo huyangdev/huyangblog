@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="/web-blog/static/css/editormd.css">
+    <meta name="keywords" content="小m的个人博客,小m的个人网站,小m,by-mmmi,技术分享">
+    <meta name="description" itemprop="description" content="小m的个人网站,成长路上的点点滴滴.">
+    <title>blog</title>
+
+    <style>
+      *{margin:0; padding:0;font-size: 16px;}
+      body{
+        font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,Arial,sans-serif;
+      }
+      #loading{
+        position:absolute;
+        width: 30px;
+        height: 30px;
+        top: 0; left:0;
+        bottom: 0; right:0;
+        margin: auto;
+        z-index: 1001;
+        font-size: 30px;
+      }
+
+      .loading-box{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        z-index: 1000;
+        background: #dee3e7;
+      }
+      a{
+        text-decoration:none;
+      }
+    </style>
+    <link type="text/css" rel="stylesheet" href="/web-blog/static/css/font-icon.css">
+    <link rel="shortcut icon" type="image/ico" href="/web-blog/static/ico.ico">
+    <link rel="stylesheet" href="/web-blog/static/css/m.css">
+  </head>
+  <body style="background-color:#dee3e7;">
+    <div class="loading-box">
+      <i id="loading" class="el-icon-loading"></i>
+    </div>
+    <div id="app"></div>
+  </body>
+  <script>
+
+    window.onload = function(){
+      var oLoading = document.querySelector(".loading-box");
+      setTimeout(function(){
+        oLoading.style.display = 'none';
+      },500);
+    }
+  </script>
+</html>
